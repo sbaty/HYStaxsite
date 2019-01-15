@@ -1,0 +1,101 @@
+body {
+	background-color: #c6cad1;
+	font-family: Palatino, serif;
+	font-size: 16px;
+	margin: 0;
+}
+h1{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  }
+.topnav {
+  overflow: hidden;
+  /*margin-left:173px;
+  margin-right:173px;*/
+  margin:0 auto;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: gray;
+}
+#container {
+	width: -100px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: Bebas Neue;
+	font-size: 40px;
+	color: red;
+	text-shadow:
+  -1px -1px 0 #002,  
+   1px -1px 0 #002,
+   -1px 1px 0 #002,
+    1px 1px 0 #002;
+	margin: 0 auto;
+}
+.p {
+
+	line-height: 1.6;
+}
+
+.Header {
+	background-image: url(hys.jpg);
+	background-attachment: local;
+	background-size:100% 100%;
+	position: relative; 
+	width: 100%;/*1000px; */
+	height: 100%; /*120px;*/
+	font-size:24px;
+	color: red;
+	text-shadow:
+   -1px -1px 0 #002,  
+    1px -1px 0 #002,
+    -1px 1px 0 #002,
+    1px 1px 0 #002;
+	overflow:hidden;
+	padding-top: 95px;
+	padding-left: 20px;
+	margin: 0 auto;
+}
+
+.List{
+	float:left;
+	width:300px;
+	}
+	
+.Objective{
+	float:right;
+	width:800px;
+	padding-right:200px;
+	}	
+.form {
+	float:left;
+	clear: left;
+	margin-bottom: 20px;
+}	
+.error {
+	color: #FF0000;
+	}
+.footer{
+	position:fixed;
+	display:block;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
